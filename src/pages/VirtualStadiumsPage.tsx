@@ -19,7 +19,7 @@ const VirtualStadiumsPage: React.FC = () => {
     {
       id: 1,
       name: 'Thunder Arena',
-      imageUrl: '/src/assets/stadium1.jpeg',
+      imageUrl: '/stadium1.jpeg',
       seatingCapacity: 50000,
       amenities: 'VIP Boxes, Food Courts, Merchandise Shops',
       design: 'Modern',
@@ -29,7 +29,7 @@ const VirtualStadiumsPage: React.FC = () => {
     {
       id: 2,
       name: 'Eagle Stadium',
-      imageUrl: '/src/assets/stadium4.jpeg',
+      imageUrl: '/stadium4.jpeg',
       seatingCapacity: 35000,
       amenities: 'LED Screens, Luxury Suites',
       design: 'Classic',

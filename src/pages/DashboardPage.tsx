@@ -7,49 +7,49 @@ const DashboardPage: React.FC = () => {
     {
       title: 'Virtual Stadiums',
       description: 'Own, customize, and manage your virtual stadiums as NFTs. Lease them or host events to monetize your assets.',
-      imageUrl: '/src/assets/stadium.jpeg', 
+      imageUrl: '/stadium.jpeg', 
       link: '/virtual-stadiums' 
     },
     {
       title: 'Team Management',
       description: 'Create and manage your sports teams. Trade NFTs, improve team performance, and compete in various leagues.',
-      imageUrl: '/src/assets/team2.jpeg',
+      imageUrl: '/team2.jpeg',
       link: '/team-management' 
     },
     {
       title: 'Gamified Sports Events',
       description: 'Participate in virtual leagues and tournaments. Compete, spectate, and influence outcomes with real-world data integration.',
-      imageUrl: '/src/assets/gamified.jpeg',
+      imageUrl: '/gamified.jpeg',
       link: '/gamified-events' 
     },
     {
       title: 'In-Game Economy',
       description: 'Engage in a tokenized economy. Earn, spend, and trade tokens to upgrade stadiums, acquire exclusive NFTs, and access premium events.',
-      imageUrl: '/src/assets/economy1.jpeg',
+      imageUrl: '/economy1.jpeg',
       link: '/Economy' 
     },
     {
       title: 'Social & Fan Interaction',
       description: 'Build fan clubs, trade NFT memorabilia, and engage in metaverse activities like virtual meet-and-greets and tailgate parties.',
-      imageUrl: '/src/assets/duo2.jpeg',
+      imageUrl: '/duo2.jpeg',
       link: '/fan-interaction' 
     },
     {
       title: 'Cross-Sport & Multi-League Support',
       description: 'Support multiple sports and integrate e-sports leagues. Collaborate and compete in hybrid events for a unified experience.',
-      imageUrl: '/src/assets/cross2.jpeg',
+      imageUrl: '/cross2.jpeg',
       link: '/cross-sport' 
     },
     {
       title: 'Create New Event',
       description: 'Organize and manage your own fantasy sports events with ease.',
-      imageUrl: '/src/assets/event1.jpeg',
+      imageUrl: '/event1.jpeg',
       link: '/gamified-events' 
     },
     {
       title: 'My NFT Collection',
       description: 'View and manage your exclusive FanArena NFTs, including stadiums, teams, and player cards.',
-      imageUrl: '/src/assets/player3.jpeg',
+      imageUrl: '/player3.jpeg',
       link: '/' 
     },
   ];

@@ -3,7 +3,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../index.css';
-import logo from '../assets/icon.jpeg';  
+// Change the import path to directly reference the image in the public directory
+// import logo from '../assets/icon.jpeg';  // Remove this line
 
 const Header: React.FC = () => {
   return (
@@ -11,7 +12,8 @@ const Header: React.FC = () => {
       <div className="container flex justify-between align-center">
         {/* Left Section: Logo and Brand Name */}
         <div className="header-left flex align-center">
-          <img src={logo} alt="FanArena Logo" className="logo-img" />
+          {/* Use the URL path to the image in the public directory */}
+          <img src="/icon.jpeg" alt="FanArena Logo" className="logo-img" />
           <Link to="/" className="logo-text">
             <h1>FanArena</h1>
           </Link>
@@ -24,7 +26,7 @@ const Header: React.FC = () => {
               <Link to="/team-management" className="nav-link">Teams</Link>
             </li>
             <li>
-              <Link to="/virtual-stadiums" className="nav-link"> Stadiums</Link>
+              <Link to="/virtual-stadiums" className="nav-link">Stadiums</Link>
             </li>
             <li>
               <Link to="/gamified-events" className="nav-link">Events</Link>

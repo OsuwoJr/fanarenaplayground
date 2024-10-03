@@ -12,14 +12,14 @@ const SpectateEvent: React.FC<SpectateEventProps> = () => {
       name: 'Championship Finals',
       sport: 'Soccer',
       liveScore: '2 - 1',
-      liveStreamUrl: 'https://example.com/live-stream-1', // Replace with actual URL
+      liveStreamUrl: 'https://youtu.be/KqQU1s8B-lE?si=FU7xksmdIBnxbXJW', // Replace with actual URL
     },
     {
       id: 2,
       name: 'Semi-Finals',
       sport: 'Basketball',
       liveScore: '98 - 95',
-      liveStreamUrl: 'https://example.com/live-stream-2',
+      liveStreamUrl: 'https://youtu.be/Aw_OVfYOPMw?si=86WridoDU4vUbGes',
     },
     // Add more live events as needed
   ]);

@@ -27,7 +27,7 @@ const TeamManagementPage: React.FC = () => {
       id: 1,
       name: 'Eagles FC',
       sport: 'Soccer',
-      imageUrl: '/src/assets/team1.jpeg',
+      imageUrl: '/team1.jpeg',
       nftId: 'NFT12345',
       performance: 85,
       players: [
@@ -39,7 +39,7 @@ const TeamManagementPage: React.FC = () => {
       id: 2,
       name: 'Thunderbolts',
       sport: 'Basketball',
-      imageUrl: '/src/assets/team2.jpeg',
+      imageUrl: '/team2.jpeg',
       nftId: 'NFT67890',
       performance: 75,
       players: [

@@ -3,8 +3,8 @@ import '../index.css';
 
 const NFTMarketplace: React.FC = () => {
   const nfts = [
-    { id: 1, name: 'Eagles Digital Jersey', price: '0.5 ETH', imageUrl: '/assets/nft1.jpeg' },
-    { id: 2, name: 'Signed Basketball', price: '0.8 ETH', imageUrl: '/assets/nft2.jpeg' },
+    { id: 1, name: 'Eagles Digital Jersey', price: '0.5 ETH', imageUrl: '/eagles3.jpeg' },
+    { id: 2, name: 'Signed Basketball', price: '0.8 ETH', imageUrl: '/signedbasketball.jpeg' },
   ];
 
   return (
